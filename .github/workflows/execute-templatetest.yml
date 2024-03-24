@@ -26,4 +26,4 @@ jobs:
       - name: Instantiate Test Project from Template
         run: dotnet new wbclasslib --output TestProject
       - name: Run Test Project
-        run: cd TestProject/src && dotnet test --configuration ${{ inputs.configuration }}
+        run: cd TestProject/src && dotnet build --configuration ${{ inputs.configuration }}

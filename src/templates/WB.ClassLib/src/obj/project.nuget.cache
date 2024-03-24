@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "CwaEgEgcQBfi+BxXL6ne5zyAe9bCIEL1+2uoBerYxbiytHX4VFtlJ9pFjgTiKc9GNM7UkiT0KZEwl88YgpNjYA==",
+  "success": true,
+  "projectFilePath": "/Users/wolf/Coden/L0gg3r/WB.ClassLibTemplate/src/templates/WB.ClassLib/src/WB.ClassLib.csproj",
+  "expectedPackageFiles": [
+    "/Users/wolf/.nuget/packages/microsoft.codeanalysis.publicapianalyzers/3.3.4/microsoft.codeanalysis.publicapianalyzers.3.3.4.nupkg.sha512",
+    "/Users/wolf/.nuget/packages/stylecop.analyzers/1.2.0-beta.556/stylecop.analyzers.1.2.0-beta.556.nupkg.sha512",
+    "/Users/wolf/.nuget/packages/stylecop.analyzers.unstable/1.2.0.556/stylecop.analyzers.unstable.1.2.0.556.nupkg.sha512",
+    "/Users/wolf/.nuget/packages/wb.codeanalyzer/1.0.0/wb.codeanalyzer.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

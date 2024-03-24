@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Wolf Bublitz",
+    "classifications": [
+        "C#",
+        "dotnet",
+        "classlib"
+    ],
+    "identity": "WB.ClassLib",
+    "name": "WB Class Library",
+    "shortName": "wbclasslib",
+    "sourceName": "ClassLibName",
+    "preferNameDirectory": true,
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    }
+}

@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Project Info -->
+  <PropertyGroup>
+    <Title>WB Class Lib Template</Title>
+    <Authors>Wolf Bublitz</Authors>
+    <Description>Template for a C# Class Library.</Description>
+    <RepositoryUrl>https://github.com/WolfBublitz/WB.ClassLibTemplate</RepositoryUrl>
+  </PropertyGroup>
+
+  <!-- Version -->
+  <PropertyGroup>
+    <MajorVersion>1</MajorVersion>
+    <MinorVersion>0</MinorVersion>
+    <PatchVersion>0</PatchVersion>
+  </PropertyGroup>
+
+  <!-- Package -->
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageId>WB.ClassLibTemplate</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageTags>dotnet-new;templates;wb;testing</PackageTags>
+    <PackageReleaseNotes>https://github.com/WolfBublitz/WB.ClassLibTemplate/blob/master/$(MajorVersion).$(MinorVersion).x/CHANGELOG.md#$(MajorVersion)$(MinorVersion)$(PatchVersion)</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <!-- Additional Properties -->
+  <PropertyGroup>
+    <Version>$(MajorVersion).$(MinorVersion).$(PatchVersion)</Version>
+    <TargetFramework>net8.0</TargetFramework>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+  </PropertyGroup>
+
+  <!-- Warnings -->
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+    <Compile Remove="**\*" />
+    <None Include="../README.md" Pack="true" PackagePath="\"/>
+    <None Include="../LICENSE.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>

@@ -1,4 +1,4 @@
-# WB.ClassLibTemplate
+# MyLib
 
 ## Install
 

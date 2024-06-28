@@ -5,6 +5,7 @@
 ### Features
 
 - Added a docfx project for generating documentation.
+- Added a GitHub action for generating and publishing documentation to GitHub Pages.
 
 ## 1.0.0
 
